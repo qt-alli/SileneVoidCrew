@@ -53,19 +53,6 @@
 		to_chat(src, span_danger("The Github URL is not set in the server configuration."))
 	return
 
-/client/verb/reportissue()
-	set name = "report-issue"
-	set desc = "Report An Admin"
-	set hidden = TRUE
-	var/reporturl = CONFIG_GET(string/reporturl)
-	if(reporturl)
-		if(tgui_alert(src, "This will open the Report Application in your browser. Are you sure?",, list("Yes","No"))!="Yes")
-			return
-		src << link(reporturl)
-	else
-		to_chat(src, span_danger("The Github URL is not set in the server configuration."))
-	return
-
 /client/verb/changelog()
 	set name = "Changelog"
 	set category = "OOC"
