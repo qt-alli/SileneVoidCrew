@@ -17,13 +17,13 @@ $include atmos_mix.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'Shiptest' with the name of your choice.
-SERVERNAME <a href="https://discord.gg/h9ARKE37t9">Tony VoidCrew</a> -- LRP -- Beginner Friendly -- respawn - vote
+SERVERNAME Allison VoidCrew -- LRP -- Beginner Friendly -- respawn - vote
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
  SERVERSQLNAME voidcrew
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Tony Station 13
+STATIONNAME Allison Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -207,7 +207,7 @@ VOTE_AUTOTRANSFER_INTERVAL 18000
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY t0nysama
+HOSTEDBY Allison
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
